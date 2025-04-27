@@ -166,13 +166,15 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "title": "Avant/Apres",
+        "content": "<p><br/>Mettez en valeur les avantages de votre produit en utilisant une comparaison d'images avant/après.</p>",
+        "before_image": "shopify://shop_images/PokeVault_Avant.jpg",
+        "after_image": "shopify://shop_images/PokeVault_Apres.jpg",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
+        "before_text": "Avant",
+        "after_text": "Apres",
         "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
@@ -302,86 +304,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
       }
     },
     "hot-spots": {
@@ -543,9 +465,9 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Compare",
-        "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
+        "subheading": "",
+        "title": "Caractéristiques des produits",
+        "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -573,22 +495,22 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Expédiez-vous à l'international ?",
+            "content": "<p>Oui, nous livrons dans le monde entier. Les frais de livraison s'appliqueront et seront ajoutés au moment du paiement. Nous proposons des réductions et des promotions tout au long de l'année, alors restez à l'affût de nos offres exclusives.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Combien de temps faudra-t-il pour recevoir ma commande ?",
+            "content": "<p>Cela dépend de votre lieu de résidence. Les commandes traitées ici prendront entre 5 et 7 jours ouvrables pour arriver. Les livraisons à l'étranger peuvent prendre entre 7 et 16 jours. Les détails de la livraison seront fournis dans votre e-mail de confirmation.<br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Une question ?",
+            "content": "<p>Vous pouvez nous contacter via notre page de contact ! Nous serons heureux de vous aider.</p>"
           }
         }
       },
@@ -601,10 +523,10 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Notre service client est disponible du lundi au vendredi : de 8h00 à 20h30.",
+        "answer_time": "Temps de réponse moyen : 24h",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -627,8 +549,6 @@
     "scrolling-text",
     "collection-list",
     "impact-text",
-    "image-with-text-overlay",
-    "press",
     "hot-spots",
     "feature-chart",
     "faq"
