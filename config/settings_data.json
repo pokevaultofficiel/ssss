@@ -17,6 +17,7 @@
     "block_shadow_vertical_offset": 18,
     "icon_stroke_width": 2,
     "icon_style": "duo",
+    "button_style": "outline",
     "background": "#ffffff",
     "text_color": "#1a1a1a",
     "header_background": "#f0f0f0",
@@ -38,6 +39,7 @@
     "heading_apparition": "split_fade",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
+    "cart_icon": "shopping_cart",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": []

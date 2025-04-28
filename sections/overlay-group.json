@@ -27,8 +27,8 @@
     "privacy-banner": {
       "type": "privacy-banner",
       "settings": {
-        "privacy_bar_title": "Cookie policy",
-        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
+        "privacy_bar_title": "Politique des cookies",
+        "privacy_bar_content": "<p>Nous utilisons des cookies et des technologies similaires pour vous offrir la meilleure expérience sur notre site web. Veuillez consulter notre Politique de Confidentialité pour plus d’informations</p>"
       }
     },
     "cart-drawer": {
@@ -40,8 +40,8 @@
         "show_checkout_button": true,
         "recommendations_title": "Trending this month",
         "products": [],
-        "product_card_background": "#f2f2f2",
-        "product_card_text_color": ""
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#ffffff"
       }
     },
     "search-drawer": {
